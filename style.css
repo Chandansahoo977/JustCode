@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    body {
+        font-family: Arial, sans-serif;
+    }
+}
+.input-group {
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.tick-icon {
+    color: green;
+    margin-right: 10px;
+}
+
+.content-section {
+    margin-bottom: 20px;
+}
+
+.feature-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.feature-list p {
+    margin: 0;
+}
+
+.img-column img {
+    width: 100%;
+    height: auto;
+}
+
+/* Section-1 */
+
+.success-stories {
+    background-color: #faf8f6;
+    padding: 40px 20px;
+}
+.success-stories .icon-quote {
+    font-size: 40px;
+    color: #ddd;
+}
+.success-stories h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.success-stories p {
+    color: #888;
+}
+.story-card {
+    background-color: #f9f7f7;
+    padding: 20px;
+    border-radius: 10px;
+}
+.story-card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.play-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 50%;
+    color: #007bff;
+}
+.btn-primary-custom {
+    background-color: #007bff;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+}
+.btn-primary-custom:hover {
+    background-color: #0056b3;
+}
+
+/* Section-2 */
+
+.steps-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f7f9fc;
+}
+
+.steps-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.step-box {
+    margin-bottom: 30px;
+}
+
+.step-icon {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.step-box h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.step-box p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Section-4 */
+
+.business-listing-section {
+    padding: 40px;
+    background-color: #f7f9fc;
+}
+.business-listing-header {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.business-listing-content ul {
+    list-style: none;
+    padding: 0;
+}
+.business-listing-content ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.business-listing-content ul li::before {
+    content: "\2713"; /* Checkmark symbol */
+    color: green;
+    margin-right: 8px;
+}
+.business-listing-image {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.register-box {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.mobile-input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+}
+.mobile-input-group img {
+    margin-right: 8px;
+}
+.mobile-input-group input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+    width: 100%;
+}
+.register-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.register-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Card Section-4 */
+
+.business-listing-section {
+    padding: 40px;
+    background-color: #f7f9fc;
+}
+.business-listing-header {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.business-listing-content ul {
+    list-style: none;
+    padding: 0;
+}
+.business-listing-content ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.business-listing-content ul li::before {
+    content: "\2713"; /* Checkmark symbol */
+    color: green;
+    margin-right: 8px;
+}
+.business-listing-image {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.advertise-now-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 0;
+}
+.advertise-now-btn:hover {
+    background-color: #218838;
+}
+
+/* FAQ Section */
+
+.faq-section {
+    padding: 5px;
+    background-color: #f7f9fc;
+}
+.faq-header {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.faq-question {
+    font-size: 18px;
+    font-weight: 500;
+    color: #007bff;
+    cursor: pointer;
+}
+.faq-answer {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.accordion-button::after {
+    font-size: 1.25rem;
+}
+
+/* Section-6 */
+
+.create-account-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+.create-account-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+.create-account-section h5 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #555;
+}
+.input-group .form-control {
+    padding: 25px 15px;
+    border-radius: 50px;
+}
+.input-group .btn {
+    border-radius: 50px;
+    background-color: #007bff;
+    color: white;
+}
+.small-text {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #888;
+}
+.small-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+.vector-image {
+    max-width: 100%;
+    height: auto;
+}
